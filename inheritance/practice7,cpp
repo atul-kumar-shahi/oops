@@ -1,0 +1,30 @@
+#include <iostream>
+using namespace std;
+
+int main() {
+	int t;
+	cin>>t;
+	int N,K;
+	cin>>K>>N;
+	for(int i=0;i<t;i++)
+	{
+	    
+	    int U[N];
+	    for(int j=0;j<N;j++)
+	    {
+	        cin>>U[j];
+	       
+	        if(U[j]<=K)
+	        {
+	            K=K-U[j];
+	            return 1;
+	            
+	        }
+	        else 
+	        return 0;
+	        
+	        
+	    }
+	}
+	return 0;
+}
